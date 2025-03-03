@@ -12,3 +12,4 @@ const user=function(){
 
 // array
 const movies=["the great gatsby","sing2","man from torronto"];
+console.log(typeof movies)
