@@ -28,5 +28,5 @@ function calculate(a,b,opretor){
     return "something is missing";
  }
 }
-console.log(calculate(100));
+console.log(calculate(100,50,add));
 
