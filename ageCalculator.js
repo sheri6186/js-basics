@@ -17,5 +17,5 @@ function agePhase(age){
         console.log("not born")
     }
   }
-  let zohanage=600;
+  let zohanage=17;
   agePhase(zohanage)
