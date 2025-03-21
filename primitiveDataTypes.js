@@ -1,4 +1,4 @@
-// primitive data types: number, string, null, undefind, boolean, bigInt and Symbol
+// primitive data types: string, number, null, undefind, boolean, bigInt and Symbol
 
 const value = 159; //number
 let name="asrar";//string
