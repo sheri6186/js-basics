@@ -1,4 +1,4 @@
-// Stack(primitive) Heap(non-primitive)
+// Stack(primitive copy) Heap(non-primitive reference)
 let myyoutubename="asrarulhaq";
 let anotheryoutubechannel=myyoutubename;
 anotheryoutubechannel="zohan";
