@@ -1,4 +1,6 @@
-// Stack(primitive copy) Heap(non-primitive reference)
+// Stack(primitive copy) Heap(non-primitive reference) 
+// stack (shallow copy) vs heap (deep copy)
+// A shallow copy of an object is a copy whose properties share the same references
 let myyoutubename="asrarulhaq";
 let anotheryoutubechannel=myyoutubename;
 anotheryoutubechannel="zohan";
@@ -14,6 +16,7 @@ console.log(anotheryoutubechannel);
 
 
 // Heap(non-primitive)
+// A deep copy of an object is a copy whose properties do not share the same references 
 let userone={
     email:"sheri.6186@gmail.com",
     password:"123456"
