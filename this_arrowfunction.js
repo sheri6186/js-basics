@@ -35,8 +35,8 @@ const implicitfunc=(num1,num2)=>(num1+num2)
 console.log(implicitfunc(2,3))
 
 
-const handleobject=()=>({
-    username:"sheri",
-    price:399
-})
-console.log(handleobject())
+// const handleobject=()=>({
+//     username:"sheri",
+//     price:399
+// })
+// console.log(handleobject())
