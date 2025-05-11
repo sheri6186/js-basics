@@ -52,6 +52,124 @@ do {
 
 let wow = 0;
 do {
-  console.log(user[wow]);
+//   console.log(user[wow]);
   wow++;
 } while (wow < user.length);
+
+
+
+// higer order function
+// ["","",""]
+// [[],[],[]]
+// [{},{},{}]
+const arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (const element of arr) {
+    // console.log(element)
+}
+
+for (const key of user) {
+    // console.log(key)
+    
+}
+
+const myobj=[
+    {name:"sheri",age:22},
+    {name:"pablo",age:23},
+    {name:"mike",age:24},
+    {name:"john",age:25}
+]
+
+
+for (const key of myobj) {
+    // console.log(key.name,key.age)
+    // console.log(key.age)
+    
+}
+
+const map=new Map();
+map.set("name","sheri")
+// for (const key of map) {
+//     console.log(key)
+//     console.log(key[0])
+   
+// }
+
+// for (const [key,value] of map) {
+//     console.log(key)
+
+//     console.log(value)
+//     console.log(key,value)
+
+
+// }
+const myobject={
+    name:"sheri",
+    age:26
+}
+// for (const element of myobject) {
+//     // console.log(element)
+    
+// }
+
+for (const key in myobject) {
+    // console.log(key)
+    // console.log(myobject[key])
+
+    // console.log(key,myobject[key])
+}
+for (const key in user) {
+    // console.log(key)              
+    // console.log(user[key])
+    // console.log(key,user[key])
+}
+
+
+// for (const key in map) {
+//   console.log(key)
+//     console.log(map[key])
+// }
+
+
+const coding = ["js", "ruby", "java", "python", "cpp"]
+coding.forEach( 
+  function (item){
+    // console.log(item)
+  }
+);
+
+coding.forEach(
+  (item) => {
+    // console.log(item)
+  }
+);
+function print(item) {
+  // console.log(item)
+  // return item 
+}
+coding.forEach(print)
+
+
+coding.forEach((item,index,myarr)=>{
+  console.log(item,index,myarr)
+})
+
+
+const myCoding = [
+  {
+      languageName: "javascript",
+      languageFileName: "js"
+  },
+  {
+      languageName: "java",
+      languageFileName: "java"
+  },
+  {
+      languageName: "python",
+      languageFileName: "py"
+  },
+]
+
+
+myCoding.forEach((index)=>{
+  console.log(`Languagename is:- ${index.languageName} and its shorthand Notation is:- ${index.languageFileName}`)
+})
