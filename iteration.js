@@ -188,4 +188,69 @@ mynumber.forEach((index) => {
   myarr.push(index)
   // console.log(index*2)
 })
-console.log(myarr)
+// console.log(myarr)
+
+const books = [
+  { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
+  { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
+  { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 },
+  { title: 'Book Four', genre: 'Non-Fiction', publish: 1989, edition: 2010 },
+  { title: 'Book Five', genre: 'Science', publish: 2009, edition: 2014 },
+  { title: 'Book Six', genre: 'Fiction', publish: 1987, edition: 2010 },
+  { title: 'Book Seven', genre: 'History', publish: 1986, edition: 1996 },
+  { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
+  { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
+];
+
+let userBooks=books.filter((bk)=> bk.genre==="Fiction" && bk.edition>2005)
+
+
+// console.log(userBooks)
+
+// chaining method of loop 
+const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// myNumers.map((index) => console.log(index))
+let chaining=myNumers.map((index)=>index*10).map((index)=>index+1).filter((index)=>index>50)
+// console.log(chaining)
+
+
+
+let num=[1,2,3]
+let myval=num.reduce((acc,curr)=>acc+curr,0)
+// console.log(myval)
+myval=num.reduce((accumulator,currentValue)=>{
+  // console.log(accumulator,currentValue)
+  return accumulator+currentValue
+},0)
+
+
+// myval=num.reduce((acc,curr)=>{console.log(`Accumulator value:- ${acc} Current value:- ${curr}`);return acc+curr},0)
+// console.log(myval)
+
+// Shopping Cart scenario work same as reduce function
+
+const shoppingCart = [
+  {
+      itemName: "js course",
+      price: 2999
+  },
+  {
+      itemName: "py course",
+      price: 999
+  },
+  {
+      itemName: "mobile dev course",
+      price: 5999
+  },
+  {
+      itemName: "data science course",
+      price: 12999
+  },
+]
+
+let CartDetails=shoppingCart.reduce((acc,item)=>{
+  console.log(`Current ItemName:- ${item.itemName} And Current Price:- ${item.price} `)
+  return acc+item.price
+},0)
+
+console.log(CartDetails)
