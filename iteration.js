@@ -150,7 +150,7 @@ coding.forEach(print)
 
 
 coding.forEach((item,index,myarr)=>{
-  console.log(item,index,myarr)
+  // console.log(item,index,myarr)
 })
 
 
@@ -171,5 +171,21 @@ const myCoding = [
 
 
 myCoding.forEach((index)=>{
-  console.log(`Languagename is:- ${index.languageName} and its shorthand Notation is:- ${index.languageFileName}`)
+  // console.log(`Languagename is:- ${index.languageName} and its shorthand Notation is:- ${index.languageFileName}`)
 })
+
+
+
+
+
+const mynumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+mynumber.forEach((index) => {
+  // return index
+})
+
+const myarr=[]
+mynumber.forEach((index) => {
+  myarr.push(index)
+  // console.log(index*2)
+})
+console.log(myarr)
