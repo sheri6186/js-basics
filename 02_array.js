@@ -11,7 +11,7 @@ const score2=200
 const score3=300
 // console.log([score1,score2,score3])
 // console.log(Array.of(score1,score2,score3))
-const new_array=Array.isArray(marvel_heroes)
+// const new_array=Array.isArray(marvel_heroes)
 // console.log(new_array)
 // console.log(Array.from("sheri"))
 
@@ -25,5 +25,5 @@ const obj={
 // console.log(Array.from(obj)) //The Array.from() method is used to create an array from an iterable object (like a string, Set, or Map) or an array-like object (like arguments or objects with a length property). However, a plain object like the one in your code is not iterable, so Array.from(obj) will throw an error.
 
 
-console.log(Object.values(obj));
-console.log(Object.keys(obj)); 
+// console.log(Object.values(obj));
+// console.log(Object.keys(obj)); 
