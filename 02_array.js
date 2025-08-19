@@ -1,11 +1,11 @@
 const marvel_heroes = ["Thor","Ironman","Hulk","Black Widow","Captain America"];
 const Dc_heroes=["superman","batman","wonderwoman","greenlantern","flash"];
-const all_heroes = [...marvel_heroes,...Dc_heroes];
+// const all_heroes = [...marvel_heroes,...Dc_heroes];
 // console.log(all_heroes);
-const allheroes=marvel_heroes.concat(Dc_heroes);
+// const allheroes=marvel_heroes.concat(Dc_heroes);
 // console.log(allheroes);
 const mynumber=[1,2,3,[4,5,6],[7,8,[9,10]]]
-// console.log(mynumber.flat(Infinity))
+console.log(mynumber.flat(Infinity))
 const score1=100
 const score2=200
 const score3=300
