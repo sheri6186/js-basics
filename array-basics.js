@@ -10,7 +10,7 @@ const myarr = [1, 2, 3, 4, 5];
 // myarr.unshift(9)// add to the beginning
 // console.log(myarr);
 // myarr.shift()// remove from the beginning
-// console.log(myarr);
+console.log(myarr);
 
 const arr = new Array(1, 2, 3, 4, 5);
 // console.log(typeof arr);
