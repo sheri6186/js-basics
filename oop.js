@@ -27,4 +27,8 @@ const userTwo=new user("pablo",10,false);
 console.log(userOne.username);
 userOne.getUserDetails()
 console.log(userTwo.username);
+<<<<<<< HEAD
 userTwo.getUserDetails()
+=======
+userTwo.getUserDetails()
+>>>>>>> b4a4febd932c60e50275ea0309519535b9f0900c
