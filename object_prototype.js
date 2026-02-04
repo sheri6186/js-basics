@@ -19,7 +19,7 @@ user.prototype.email=function(){
 
 // console.log(user.email());
 
-// prototype is a property of a new object that allows you to add new properties and methods to the object
+// prototype is a property of an object that allows you to add new properties and methods to the object
 // prototype is a property of an object that allows you to add new properties and methods to the object
 
 // __proto__ is a property of an object that allows you to access the prototype of the object
