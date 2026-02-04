@@ -52,7 +52,11 @@ createUser.prototype.printMe = function(){
 }
 
 const chai = new createUser("chai", 25)
+<<<<<<< HEAD
 const tea = new createUser("tea", 250)
+=======
+const tea = createUser("tea", 250)
+>>>>>>> cf0ef50b670ed52ac5fa92ca0eaabb98d7bede10
 
 chai.printMe()
 
