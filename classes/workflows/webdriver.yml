@@ -1,0 +1,33 @@
+name: Run WebdriverIO Tests
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  wdio-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show repo structure
+        run: |
+          pwd
+          ls
+          find . -maxdepth 3 -type f | sort
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./webdriver
+
+      - name: Run WebdriverIO tests
+        run: npm run wdio
+        working-directory: ./webdriver
