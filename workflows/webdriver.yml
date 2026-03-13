@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: cd ./webdriver
+        working-directory: ./webdriver
 
       - name: Run WebdriverIO tests
         run: npm run wdio
-        working-directory: cd ./webdriver
+        working-directory: ./webdriver
