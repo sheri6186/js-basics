@@ -13,12 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Show repo structure
-        run: |
-          pwd
-          ls
-          find . -maxdepth 3 -type f | sort
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -26,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./webdriver
+        working-directory: cd ./webdriver
 
       - name: Run WebdriverIO tests
         run: npm run wdio
-        working-directory: ./webdriver
+        working-directory: cd ./webdriver
